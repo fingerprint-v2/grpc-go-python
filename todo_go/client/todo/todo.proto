@@ -2,7 +2,8 @@ syntax = "proto3";
 
 // import "google/protobuf/empty.proto";
 package todo; // package name must be the same as the go_package option in the .proto file
-option go_package = "nnnpooh/grpc/test/todo";
+
+option go_package = "nnnpooh/grpc/test/todo/client/todo";
 
 
 service TodoService {

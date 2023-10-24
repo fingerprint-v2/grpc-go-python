@@ -13,19 +13,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\ntodo.proto\"4\n\x04Todo\x12\n\n\x02id\x18\x01 \x01(\x05\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tcompleted\x18\x03 \x01(\x08\"\x1d\n\x05Todos\x12\x14\n\x05todos\x18\x01 \x03(\x0b\x32\x05.Todo\"\x07\n\x05\x45mpty2+\n\x0bTodoService\x12\x1c\n\x08GetTodos\x12\x06.Empty\x1a\x06.Todos\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\ntodo.proto\x12\x04todo\"4\n\x04Todo\x12\n\n\x02id\x18\x01 \x01(\x05\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tcompleted\x18\x03 \x01(\x08\"\"\n\x05Todos\x12\x19\n\x05todos\x18\x01 \x03(\x0b\x32\n.todo.Todo\"\x07\n\x05\x45mpty25\n\x0bTodoService\x12&\n\x08GetTodos\x12\x0b.todo.Empty\x1a\x0b.todo.Todos\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'todo_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
-  _globals['_TODO']._serialized_start=14
-  _globals['_TODO']._serialized_end=66
-  _globals['_TODOS']._serialized_start=68
-  _globals['_TODOS']._serialized_end=97
-  _globals['_EMPTY']._serialized_start=99
-  _globals['_EMPTY']._serialized_end=106
-  _globals['_TODOSERVICE']._serialized_start=108
-  _globals['_TODOSERVICE']._serialized_end=151
+  _globals['_TODO']._serialized_start=20
+  _globals['_TODO']._serialized_end=72
+  _globals['_TODOS']._serialized_start=74
+  _globals['_TODOS']._serialized_end=108
+  _globals['_EMPTY']._serialized_start=110
+  _globals['_EMPTY']._serialized_end=117
+  _globals['_TODOSERVICE']._serialized_start=119
+  _globals['_TODOSERVICE']._serialized_end=172
 # @@protoc_insertion_point(module_scope)

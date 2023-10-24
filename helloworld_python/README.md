@@ -1,7 +1,7 @@
 # Compile
 
-`python -m grpc_tools.protoc -I./protos --python_out=. --pyi_out=. --grpc_python_out=. ./protos/helloworld.proto`
+`pipenv run proto`
 
 # Running
 
-pymon grpc_server.py --all
+`pipenv run server`

@@ -1,4 +1,4 @@
-module nnnpooh/grpc/test
+module nnnpooh/grpc/test/todo/client
 
 go 1.21.3
 
