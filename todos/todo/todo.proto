@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+// import "google/protobuf/empty.proto";
+package todo; // package name must be the same as the go_package option in the .proto file
+option go_package = "nnnpooh/grpc/test/todo";
+
+
+service TodoService {
+    rpc GetTodos (Empty) returns (Todos) {}
+}
+
+message Todo {
+    int32 id = 1;
+    string title = 2;
+    bool completed = 3;
+}
+
+message Todos {
+    repeated Todo todos = 1;
+}
+
+message Empty {}
